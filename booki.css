@@ -338,6 +338,7 @@
         align-items: center;
         height: 400px;
         margin: auto;
+        color: black;
     }
     .card_vieux_port{
         width: 260px;
