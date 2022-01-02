@@ -447,9 +447,11 @@
     .touslesactivites h3 {
         font-size: 12px;
         padding-left: 10px;
+        color: black;
     }
     .touslesactivites a{
         text-decoration: none;
+        color: black;
     }
     
     footer {
