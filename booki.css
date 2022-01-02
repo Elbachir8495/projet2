@@ -1,0 +1,492 @@
+
+@font-face{
+    font-family: Raleway sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
+}
+    body {
+          box-sizing: border-box;
+          color: black;
+ }
+
+    #blockpage{
+          width: 1124px;
+          margin:auto;
+ }
+
+    header{
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+         width: auto;
+ }
+    .logo img {
+        width: 100px;
+        height: 60px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    nav li {
+        margin: 30px;
+        color: cornflowerblue;
+        
+    }
+    nav a {
+        font-size: 15px;
+        color: black;
+        text-decoration: none;
+    }
+
+    nav li :hover{
+        border-top: 2px solid cornflowerblue;
+        padding-top: 40px;
+        color: cornflowerblue;
+    }
+    h2{
+        font-size: 15px;
+    }
+    h2+ p{
+        color: grey;
+        font-size: 15px;
+    }
+
+   #formulaire{
+       display: flex;
+       justify-content:flex-start;
+       align-items:baseline;
+       width: 400px;
+       margin-right: 10px;
+   }
+
+   .element1  i {
+       padding-left: 15px;
+       padding-right: 15px;
+       padding-top: 15px;
+       padding-bottom:15px; 
+       border: 1px solid black;
+       background-color: #F2F2F2;
+       border-radius: 10px 0px 0px 10px;
+       height: 20px;
+       width: 20px;
+       text-align: center;
+       border: none;
+   }
+
+   .element2 input  {
+
+       height: 45px;
+       width: 150px;
+       border: 0px;
+       border: 0.1px solid rgb(223, 207, 207);
+       padding-left: 20px;
+   }
+
+   .element3 input {
+       height: 50px;
+       width: 120px;
+       background-color:#0065FC;
+       color: white;
+       border: 0px;
+       border-radius: 0px 10px 10px 0px;
+   }
+   .element3 i{
+       display: none;
+       height: 150px;
+       width: 90px;
+       background-color:#0065FC;
+       color: white;
+       border: 0px;
+       border-radius: 0px 10px 10px 0px;
+   }
+      
+  #filtre{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right:10px;
+      width:750px;
+  }
+  .touslesfiltres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    width: 750px;
+  }
+  .economique:hover{
+      color: cornflowerblue;
+  }
+  .famille:hover{
+      color: cornflowerblue;
+  }
+  .romantique:hover{
+      color: cornflowerblue;
+  }
+  .animaux:hover{
+      color: cornflowerblue;
+  }
+   .economique{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       border: 1px darkgrey solid ;
+       border-radius: 20px/20px;
+       height: 40px;
+       padding-right: 10px;
+   }
+   .famille{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px darkgrey solid;
+    border-radius: 20px/20px;
+    height: 40px;
+    padding-right: 10px;
+   }
+   .romantique{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px darkgrey solid;
+    border-radius: 20px/20px;
+    height: 40px;
+    padding-right: 10px;
+   }
+   .animaux{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px darkgrey solid ;
+    border-radius: 20px/20px;
+    height: 40px;
+    padding-right: 10px;
+
+   }
+   #filtre i {
+       padding: 12px;
+       color: rgb(2, 85, 240);
+       background-color: rgb(204, 230, 255);
+       border: 0px solid rgb(187, 186, 199);
+       border-radius: 40px/40px;
+       margin-right: 10px;
+       overflow: hidden;
+   }
+
+   #i500logement{
+       display: flex;
+       justify-content: flex-start;
+       align-items: baseline;
+       color: grey;
+       font-size: 15px;
+    }
+
+    #i500logement i {
+       margin-right: 10px;
+       color:rgb(187, 186, 199);
+       font-size: 10px;
+       padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+       border: 1px solid black;
+       border-radius: 25px/25px;
+       color: blue;
+    }
+    #hebergement{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: auto;
+    }
+    .icon_bleu {
+        color:#0065FC;
+    }
+    
+   #card_hebergement{
+       background-color: #F2F2F2;
+       border-radius: 10px/10px;
+       flex: 2;
+       margin-right: 20px;
+       padding: 20px;
+   }
+   .touslescards{
+       display:flex;
+       flex-wrap:wrap;
+       align-content: space-between;
+       height: 365px;  
+   }
+   .afficherplus{
+       margin: auto;
+       padding-left: 15px;
+       padding-top: 20px;
+       
+   }
+   .afficherplus a{
+       text-decoration: none;
+       color: black;
+   }
+   .card_hebergement{
+       width: 220px;
+       margin: auto;
+       background-color: white;
+       box-shadow: 5px 5px 20px #999;
+       border-radius: 10px/10px;
+   }
+
+   .card_hebergement a{
+       color: black;
+       text-decoration: none;
+   }
+   .card_hebergement :hover{
+       color: cornflowerblue;
+       filter: grayscale(1);
+
+   }
+   .card_image_hebergement {
+       height: 100px;
+       overflow:hidden ;
+       position:relative;
+       
+   }
+   .card_image_hebergement img{
+       width: 95%;
+       border-radius: 10px 10px 0px 0px;
+       position: absolute;
+       padding: 5px;
+   }
+   .card_body_hebergement{
+       text-align: left;
+       padding-left: 15px;
+       line-height: 5px;
+       font-size: 11px;
+       box-sizing: border-box;
+   }
+
+   #card_les_populaires{
+       background-color: #F2F2F2;
+       border-radius: 10px/10px;
+       flex: 1;
+       padding: 15px;
+    }
+    .icon_bleu_populaire{
+        padding-top: 13px;
+        color: #0065FC;
+    }
+    .iconoir i{
+        color: #999;
+    }
+
+    .les_populaires{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+    }
+    .touslescard_populaires{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        align-items: center;
+        height: 445px;
+    }
+    .les_elements{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        height: 110px;
+    }
+    .card_les_populaires{
+        background-color: white;
+        box-shadow: 5px 5px 20px #999;
+        border-radius: 10px/10px;
+        width: 260px;
+        margin: auto;
+    }
+ 
+    .card_les_populaires a{
+        color: black;
+        text-decoration: none;      
+    }
+    .card_les_populaires a :hover{
+        color: cornflowerblue;
+        filter: grayscale(1);
+    }
+    .card_image_les_populaires {
+        width: 100px;
+        height: 110px;
+    }
+    .card_image_les_populaires img{
+        width: 100px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .card_body_les_populaires{
+        padding-left: 20px;
+        font-size: 11px;
+        box-sizing: border-box;
+    }
+    .touslesactivites{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: center;
+        height: 400px;
+        margin: auto;
+    }
+    .card_vieux_port{
+        width: 260px;
+        overflow:hidden;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+    }
+    .card_image_vieuxport{
+        height: 320px;
+    }
+    .card_image_vieuxport img{
+        height: 100%;
+
+    }
+    .card_vieux_port a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+    .card_pomegues{
+        width: 260px;
+        overflow: hidden;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+        margin-bottom: 10px;
+    }
+    .card_image_pomegues{
+        height: 140px;
+    }
+    .card_image_pomegues img{
+        height: 100%;
+    }
+    .card_pomegues a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+    
+    .card_frioul{
+        width:260px;
+        overflow:hidden;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+    }
+    .card_image_frioul{
+        height: 135px;
+    }
+    .card_image_frioul img{
+        height: 100%;
+    }
+    .card_frioul a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+
+    .card_calanques{
+        width: 260px;
+        overflow: hidden;
+        font-size: 10px;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+    }
+    .card_image_calanques{
+        height: 320px;
+    }
+    .card_image_calanques img{
+        height: 100%;
+
+    }
+    .card_calanques a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+    .card_notre_dame{
+        width:260px;
+        overflow:hidden;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+        margin-bottom: 10px;
+    }
+    .card_image_notre_dame{
+        height: 140px;
+    }
+    .card_image_notre_dame img{
+        height: 100%;
+    }
+    .card_notre_dame a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+    
+    .card_longchamp{
+        width: 260px;
+        overflow: hidden;
+        border-radius: 10px/10px;
+        box-shadow: 5px 10px 20px #F2F2F2;
+    }
+    .card_image_longchamp{
+        height: 135px;
+    }
+    .card_image_longchamp img{
+        height: 100%;
+    }
+    .card_longchamp a:hover{
+        color:cornflowerblue ;
+        filter: grayscale(1);
+    }
+    .touslesactivites h3 {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .touslesactivites a{
+        text-decoration: none;
+    }
+    
+    footer {
+       width: auto;
+       background-color: #F2F2F2;
+       line-height: 5px;
+    }
+    .piedpage{
+        display: flex;
+        justify-content:flex-start;
+        align-items:baseline;
+    }
+    .apropos{
+        margin-right:200px;
+        margin-left: 80px;
+    }
+    .nos_hebergement{
+        margin-right:200px;
+    }
+    .assistance{
+        margin-right:200px ;
+    }
+    footer a{
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+    }
+    footer a:hover{
+        color: cornflowerblue;
+    }
+    
+
+        
+        
+       
+   
+
+   
+   
+
+   
