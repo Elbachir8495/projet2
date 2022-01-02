@@ -9,7 +9,7 @@
  }
 
     #blockpage{
-          width: 1124px;
+          width: 100%;
           margin:auto;
  }
 
@@ -339,6 +339,7 @@
         height: 400px;
         margin: auto;
         color: black;
+        padding: ;
     }
     .card_vieux_port{
         width: 260px;
