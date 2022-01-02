@@ -464,6 +464,7 @@
         display: flex;
         justify-content:flex-start;
         align-items:baseline;
+        width: auto;
     }
     .apropos{
         margin-right:200px;
