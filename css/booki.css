@@ -5,11 +5,13 @@
 }
     body {
           box-sizing: border-box;
-          color: black;
+          color: black;    
+          width: 100%;
+          margin: auto;
  }
 
     #blockpage{
-          width:100%;
+          width:;
           margin:auto;
  }
 
@@ -18,6 +20,8 @@
          justify-content: space-between;
          align-items: flex-end;
          width: auto;
+         padding-left: 10px;
+         
  }
     .logo img {
         width: 100px;
@@ -28,6 +32,7 @@
         list-style-type: none;
         display: flex;
         justify-content: flex-end;
+
     }
 
     nav li {
@@ -48,10 +53,12 @@
     }
     h2{
         font-size: 15px;
+        padding-left: 10px;
     }
     h2+ p{
         color: grey;
         font-size: 15px;
+        padding-left: 10px;
     }
 
    #formulaire{
@@ -60,6 +67,7 @@
        align-items:baseline;
        width: 400px;
        margin-right: 10px;
+       padding-left: 10px;
    }
 
    .element1  i {
@@ -108,14 +116,15 @@
       justify-content: space-between;
       align-items: center;
       padding-right:10px;
-      width:750px;
+      width:850px;
+      padding-left: 10px;
   }
   .touslesfiltres{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px;
-    width: 750px;
+    width: 850px;
   }
   .economique:hover{
       color: cornflowerblue;
@@ -182,8 +191,8 @@
        align-items: baseline;
        color: grey;
        font-size: 15px;
+       padding-left: 10px;
     }
-
     #i500logement i {
        margin-right: 10px;
        color:rgb(187, 186, 199);
@@ -200,7 +209,9 @@
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-        width: auto;
+        width:auto;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .icon_bleu {
         color:#0065FC;
@@ -209,16 +220,18 @@
    #card_hebergement{
        background-color: #F2F2F2;
        border-radius: 10px/10px;
-       flex: 2;
+       flex: ;
        margin-right: 20px;
        padding: 20px;
+       width: 66%;
    }
    .touslescards{
        display:flex;
        flex-wrap:wrap;
+       flex-direction: column;
        align-content: space-between;
        height: 365px;  
-   }
+    }
    .afficherplus{
        margin: auto;
        padding-left: 15px;
@@ -230,7 +243,7 @@
        color: black;
    }
    .card_hebergement{
-       width: 240px;
+       width: 250px;
        margin: auto;
        background-color: white;
        box-shadow: 5px 5px 20px #999;
@@ -269,8 +282,9 @@
    #card_les_populaires{
        background-color: #F2F2F2;
        border-radius: 10px/10px;
-       flex: 1;
+       flex: ;
        padding: 15px;
+       width: 25%;
     }
     .icon_bleu_populaire{
         padding-top: 13px;
@@ -289,7 +303,7 @@
     .touslescard_populaires{
         display: flex;
         flex-wrap: wrap;
-        align-content: space-between;
+        flex-direction: column;
         align-items: center;
         height: 445px;
     }
@@ -334,11 +348,14 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        align-content: space-between;
+        align-content:space-between;
         align-items: center;
         height: 400px;
+        width: auto;
         margin: auto;
         color: black;
+        padding-left: 10px;
+        padding-right: 10px;
         
     }
     .card_vieux_port{
@@ -455,7 +472,7 @@
     }
     
     footer {
-       width: auto;
+       width: 100%;
        background-color: #F2F2F2;
        line-height: 5px;
     }
