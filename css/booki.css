@@ -10,17 +10,10 @@
           width: 100%;
           margin: 0;        
  }
-
-    #blockpage{
-          width:;
-          overflow-x: hidden;
- }
-
     header{
          display: flex;
          justify-content: space-between;
          align-items: flex-end;
-         width: ;
          margin: auto;
          padding-left: 10px;
          
@@ -69,7 +62,6 @@
        justify-content:flex-start;
        align-items:baseline;
        width: 400px;
-       margin: ;
        margin-right: 10px;
        padding-left: 10px;
    }
@@ -121,7 +113,6 @@
       align-items: center;
       padding-right:10px;
       width:850px;
-      margin: ;
       padding-left: 10px;
   }
   .touslesfiltres{
@@ -129,7 +120,6 @@
     justify-content: space-between;
     align-items: center;
     margin: 15px;
-    margin: ;
     width: 850px;
   }
   .economique:hover{
@@ -349,8 +339,6 @@
         padding-left: 20px;
         font-size: 12px;
         box-sizing: border-box;
-        margin: ;
-        
     }
     .touslesactivites{
         display: flex;
@@ -359,7 +347,6 @@
         align-content:space-between;
         align-items: center;
         height: 400px;
-        width:  ;
         margin: auto;
         color: black;
         padding-left: 10px;
@@ -486,7 +473,7 @@
     }
     
     footer {
-       width: ;
+       width: auto;
        margin: auto;
        background-color: #F2F2F2;
        line-height: 5px;
@@ -495,15 +482,14 @@
         display: flex;
         justify-content:flex-start;
         align-items:baseline;
-        width: ;
         margin: auto;
     }
     .apropos{
-        margin-right:200px;
+        margin-right:250px;
         margin-left: 5px;
     }
     .nos_hebergement{
-        margin-right:200px;
+        margin-right:250px;
     }
     .assistance{
         margin-right:200px ;
