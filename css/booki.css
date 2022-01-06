@@ -239,11 +239,11 @@
        color: black;
    }
    .card_hebergement{
-       width: 32%;
+       width: 33%;
        margin: 5px;
        background-color: white;
        box-shadow: 5px 5px 20px #999;
-       border-radius: 10px/10px;
+       border-radius: 20px/20px;
    }
 
    .card_hebergement a{
@@ -259,13 +259,13 @@
        height: 100px;
        overflow:hidden ;
        position:relative;
-       
    }
    .card_image_hebergement img{
-       width: 96%;
-       border-radius: 10px 10px 0px 0px;
+       width: 98%;
+       border-radius: 20px 20px 0px 0px;
        position: absolute;
-       padding: 5px;
+       padding: 3px;
+       
    }
    .card_body_hebergement{
        text-align: left;
