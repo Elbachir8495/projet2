@@ -262,7 +262,7 @@
        
    }
    .card_image_hebergement img{
-       width: 95%;
+       width: 96%;
        border-radius: 10px 10px 0px 0px;
        position: absolute;
        padding: 5px;
@@ -278,8 +278,7 @@
    #card_les_populaires{
        background-color: #F2F2F2;
        border-radius: 10px/10px;
-       padding: 12px;
-       width: 33%;
+       width:30%;
     }
     .icon_bleu_populaire{
         padding-top: 13px;
@@ -292,14 +291,16 @@
     .les_populaires{
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
-
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 25px;
+        width: auto;
     }
     .touslescard_populaires{
         display: flex;
         flex-direction:column ;
+        align-content: flex-start;
         height: 445px;
-        margin: 0;
         width: auto;
     }
     .les_elements{
@@ -308,14 +309,14 @@
         align-items: center;
         padding: 5px;
         height: 110px;
-        margin: auto;
+        margin-right: 10px;
     }
     .card_les_populaires{
         background-color: white;
         box-shadow: 5px 5px 20px #999;
         border-radius: 10px/10px;
-        width: 80%;
-        margin: auto;
+        width: 90%;
+        margin: 20px;
     }
  
     .card_les_populaires a{
@@ -485,11 +486,11 @@
         margin: auto;
     }
     .apropos{
-        margin-right:250px;
+        margin-right:200px;
         margin-left: 5px;
     }
     .nos_hebergement{
-        margin-right:250px;
+        margin-right:200px;
     }
     .assistance{
         margin-right:200px ;
@@ -498,6 +499,10 @@
         font-size: 12px;
         text-decoration: none;
         color: black;
+    }
+    .piedpage p{
+        padding-right: 10px;
+        padding-left: 10px;
     }
     footer a:hover{
         color: cornflowerblue;
