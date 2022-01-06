@@ -315,24 +315,34 @@
         font-size: 12px;
         text-decoration: none;
     }
+    .piedpage p{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     footer a:hover{
         color: cornflowerblue;
     }
     .apropos h2{
-        padding-left: 20px;
+        padding-left: 10px;
         text-align: left;
+    }
+    .assistance h2{
+        padding-left: 10px;
+    }
+    .nos_hebergement h2{
+        padding-left: 10px;
     }
    
     .apropos p{
-        padding-left: 15px;
+        padding-left: 10px;
         margin-right: 150px;
     }
     .nos_hebergement p{
         text-align: left;
-        padding-left: 20px;
+        padding-left: 10px;
     }
     .assistance p{
-        padding-left: 20px;
+        padding-left: 10px;
     }
     
 }
@@ -841,6 +851,7 @@ footer {
 }
 .piedpage p {
     line-height: 70px;
+    
 }
 
 footer a{
