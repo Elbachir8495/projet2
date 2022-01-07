@@ -347,54 +347,81 @@
     
 }
     
-@media screen and (max-device-width:767px) 
+@media screen and (max-device-width:768px) 
 {
     #blockpage{
-       width: auto;
-       margin:auto;
+       width: 100%;
+       margin: auto;
     }
     header{
         display: flex;
-        flex-direction:column ;
-        align-items:flex-start; 
-        width: auto;
-        margin: auto;
-
+        flex-direction: column; 
     }
     
-    nav ul {
+    nav{
         display: flex;
-        justify-content: space-between;
-        align-items:center;
-        width: 768px;
-        border-bottom: 1px solid gray;
-        padding-bottom: 37px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        
+       
     }
+    nav ul
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-left:0 ;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    nav ul li{
+        margin-left:0 ;
+        margin-right: 0;
+        border-bottom: 3px solid gray;
+        width: 100%; 
+    }
+    li a {
+    text-decoration: none;
+    font-size: 40px;
+    display:block ;
+    height: 30px;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 15px;
+    text-align: center;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    
+    .bordure_bleu{
+        border-bottom: solid blue;
+        color: blue;
+        padding-bottom: 15px;
+    }
+    nav a:hover{
+        padding-bottom: ;
+        border-bottom: 1px solid blue ;
+        color:none;
+    }
+    
    
     .logo{
-        width: 767px;
+        width: 100%;
         display: flex;
-        justify-content: center;
-
+        justify-content: space-around;
+        align-items: center;
     }
    
     .logo img{
         height: 200px;
         width: 240px;
-        padding-left: 350px;
-    }
-   
-    nav a{
-        font-size: 60px;  
-        text-decoration: none;
-    }
-    nav a:hover
-    {
-        border-top: 0px solid cornflowerblue ;
-        border-bottom: 4px solid cornflowerblue;
-        padding-bottom: 50px;
-        color: cornflowerblue;
-    
     }
     h2{
         font-size: 75px;
@@ -418,7 +445,7 @@
         margin-left: 10px;
         padding-left: 10px;
     }
-    .element1  i {
+    .element1  i{
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -561,32 +588,34 @@
     #hebergement{
         display: flex;
         flex-direction: column-reverse;
-        width: auto;
-        margin-left: 10px;
+        width: 100%;
+        margin-left: 0px;
     }
     .touslescard_populaires{
         display: flex;
         flex-direction: column;
-        width: 767px;
+        width: 100%;
         height: 1300px;
         padding: 0px;
+        background-color: #F2F2F2;
     }
     .les_elements{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px;
+        align-items: flex-start;
+        padding-right: 50px;
         height: 350px;
-        width: 767px;
+        width: 100%;
        
     }
     #card_les_populaires{
-        border-radius: 10px/10px;
-        width: auto;
+        
+        border-radius: 0px/0px;
+        width: 100%;
+        margin:auto;
     }
     .card_les_populaires{
-       width:auto ;
-       margin: auto;
+       width:95%;
+       margin:auto;
        background-color: white;
        box-shadow: 5px 5px 20px #999;
        border-radius: 40px/40px;
@@ -600,11 +629,11 @@
     filter: grayscale(1);
 }
 .card_image_les_populaires {
-    width: 300px;
+    width: 400px;
     height: 350px;
 }
 .card_image_les_populaires img{
-    width: 300px;
+    width: 400px;
     height: 100%;
     border-radius: 40px 0px 0px 40px;
 }
@@ -631,24 +660,23 @@
    #card_hebergement{
     background-color: white;
     border-radius: 0px/0px;
-    width: auto;
+    width: 100%;
     margin: auto;
 }
 .touslescards{
-    width: 767px;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    align-items: center;
     height: 3000px;
+    padding-left: 15px;
     
 }
 .afficherplus{
     margin: auto;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 20px;
-    font-size: 50px;
+    font-size: 40px;
     
 }
 .afficherplus a{
@@ -656,7 +684,8 @@
     color: black;
 }
 .card_hebergement{
-    width: 767px;
+    width: 95%;
+    margin: auto;
     height: 450px;
     background-color: white;
     box-shadow: 10px 10px 30px #999;
@@ -674,7 +703,6 @@
 }
 .card_image_hebergement {
     height: 220px;
-    width: 767px;
     position:relative;
     
 }
@@ -699,48 +727,47 @@
 .touslesactivites{
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    width:767px;
-    margin: auto;
+    width:100%;
+    padding-left: 15px;
     height:auto;
-    margin-left: 25px;
-    padding-left: 25px;
+    padding-bottom: 30px;
 }
 #les_activites h2{
-    padding-left: 80px;
+    padding-left: 35px;
+    font-size: 50px;
 }
 #les_activites h3{
     font-size: 40px;
 }
 .card_vieux_port{
-    width: auto;
-    margin-left: 50px;
+    width: 100%;
+    margin: auto;
     height: 450px;
     overflow:hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
-    padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card_image_vieuxport{
     height: 350px;
-    width: 767px;
+    
 }
 .card_image_vieuxport img{
     height: 100%;
     width: 100%;
 }
 .card_pomegues{
-    width: auto;
+    width: 100%;
     height: 450px;
-    margin-left: 50px;
+    margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card_image_pomegues{
     height: 350px;
-    width: 767px;
 }
 .card_image_pomegues img{
     height: 100%;
@@ -751,17 +778,17 @@
     filter: grayscale(1);
 }
 .card_frioul{
-    width:auto;
+    width: 100%;
     height: 450px;
-    margin-left: 50px;
+    margin: auto;
     padding-bottom: 30px;
     overflow:hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
+    margin-bottom: 50px;
 }
 .card_image_frioul{
     height: 350px;
-    width: 767px;
 }
 .card_image_frioul img{
     height: 100%;
@@ -772,17 +799,17 @@
     filter: grayscale(1);
 }
 .card_calanques{
-    width: auto;
+    width: 100%;
     height: 450px;
-    margin-left: 50px;
+    margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card_image_calanques{
     height: 350px;
-    width: 767px;
 }
 .card_image_calanques img{
     height: 100%;
@@ -793,17 +820,17 @@
     filter: grayscale(1);
 }
 .card_notre_dame{
-    width: auto;
+    width: 100%;
     height: 450px;
-    margin-left: 50px;
+    margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card_image_notre_dame{
     height: 350px;
-    width: 767px;
 }
 .card_image_notre_dame img{
     height: 100%;
@@ -814,17 +841,17 @@
     filter: grayscale(1);
 }
 .card_longchamp{
-    width: auto;
+    width: 100%;
     height: 450px;
-    margin-left: 50px;
+    margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
     box-shadow: 5px 10px 20px #F2F2F2;
     padding-bottom: 30px;
+    margin-bottom: 50px;
 }
 .card_image_longchamp{
     height: 350px;
-    width: 767px;
 }
 .card_image_longchamp img{
     height: 100%;
@@ -835,31 +862,43 @@
     filter: grayscale(1);
 }
 footer {
-    background-color: #F2F2F2;
-    width: auto;
-    margin: auto;
+   
+    width: 100%;
+    margin-right: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
     height: auto;
 }
 .piedpage{
+    background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
+    align-content:space-between;
     align-items: flex-start;
     padding-left: 50px;
-    width: auto;
     height: auto; 
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
 }
 .piedpage p {
-    line-height: 70px;
-    
+    line-height: 80px;
+    margin:0;
+}
+footer h2{
+    font-size: 50px;
 }
 
 footer a{
     text-decoration: none;
-    font-size: 55px;
+    font-size: 35px;
 }
 footer a:hover{
     color: cornflowerblue;
+}
+footer ul li{
+    padding: 0;
+    padding-top: 35px;
 }
 
 }
