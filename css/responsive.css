@@ -604,11 +604,9 @@
         align-items: flex-start;
         padding-right: 50px;
         height: 350px;
-        width: 100%;
-       
+        width: 100%; 
     }
     #card_les_populaires{
-        
         border-radius: 0px/0px;
         width: 100%;
         margin:auto;
