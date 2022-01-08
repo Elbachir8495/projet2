@@ -1,9 +1,10 @@
 @media screen and (max-width:991px)
 {
-    
-    #blockpage{
-        width: 100%;
-        margin: auto;
+    body {
+        box-sizing: border-box;
+          color: black;  
+          width: 100%;
+          margin: 0;
     }
     header{
         display: flex;
@@ -114,7 +115,7 @@
     #hebergement{
         display: flex;
         justify-content: space-between;
-        width: 991px;
+        width: 100%;
         margin: auto;
         padding-left: 10px;
     }
@@ -196,10 +197,9 @@
         flex-direction: column;
         align-content: space-between;
         height: 450px;
-        width: auto;
+        width: 100%;
         padding: 10px;
-        margin-left: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     #les_activites h2{
         padding-left: 10px;
@@ -317,22 +317,17 @@
         color: cornflowerblue;
         filter: grayscale(1);
     }
-    
     footer {
-        background-color: #F2F2F2;
-        line-height: 5px ;
         width: 100%;
         margin: auto;
-        margin-right: 0;
-
+        line-height: 5px;
     }
     .piedpage{
         display: flex;
-        justify-content:space-between;
-        align-items:flex-start;
-        padding: 0px;
+        justify-content:flex-start;
+        margin:auto;
+        padding-left:20px;
         width: 100%;
-        margin: auto;
         background-color: #F2F2F2;
     }
     .apropos{
@@ -344,7 +339,7 @@
         margin-right:150px;
     }
     .assistance{
-        margin-right:150px;
+        margin-right:0;
     }
     footer a{
         font-size: 12px;
@@ -379,6 +374,7 @@
     .assistance p{
         padding-left: 10px;
     }
+    
     
 }
     
