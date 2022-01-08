@@ -444,7 +444,6 @@
         padding-bottom: 15px;
     }
     nav a:hover{
-        padding-bottom: ;
         border-bottom: 1px solid blue ;
         color:none;
     }
@@ -647,8 +646,9 @@
     #card_les_populaires{
         border-radius: 0px/0px;
         width: 100%;
-        margin:auto;
-        background-color: #F2F2F2;
+        margin:0px;
+        padding-left: 36px;
+        
     }
     .card_body_les_populaires h3{
         font-size: 45px;
@@ -658,7 +658,6 @@
     }
     .card_les_populaires{
        width:90%;
-       margin:auto;
        height: auto;
        background-color: white;
        box-shadow: 5px 5px 20px #999;
@@ -715,13 +714,11 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    height: 3000px;
-    padding-left: 15px;
-    
+    height: 3500px;
 }
 .afficherplus{
     margin: auto;
-    padding-left: 20px;
+    padding-left: 35px;
     padding-top: 20px;
     font-size: 40px;
     
@@ -731,12 +728,13 @@
     color: black;
 }
 .card_hebergement{
-    width: 95%;
+    width: 90%;
     margin: auto;
-    height: 450px;
+    height: 550px;
     background-color: white;
     box-shadow: 10px 10px 30px #999;
     border-radius: 40px/40px;
+    margin-left: 40px;
 }
 
 .card_hebergement a{
@@ -749,7 +747,7 @@
 
 }
 .card_image_hebergement {
-    height: 220px;
+    height: 320px;
     position:relative;
     
 }
@@ -775,24 +773,24 @@
     display: flex;
     flex-direction: column;
     width:100%;
-    padding-left: 15px;
     height:auto;
     padding-bottom: 30px;
 }
 #les_activites h2{
-    padding-left: 35px;
+    padding-left: 55px;
     font-size: 50px;
 }
 #les_activites h3{
     font-size: 40px;
 }
 .card_vieux_port{
-    width: 100%;
+    width: 90%;
     margin: auto;
-    height: 450px;
+    height: 500px;
     overflow:hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     margin-bottom: 50px;
 }
 .card_image_vieuxport{
@@ -804,12 +802,13 @@
     width: 100%;
 }
 .card_pomegues{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
@@ -825,13 +824,14 @@
     filter: grayscale(1);
 }
 .card_frioul{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 500px;
     margin: auto;
     padding-bottom: 30px;
     overflow:hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     margin-bottom: 50px;
 }
 .card_image_frioul{
@@ -846,12 +846,13 @@
     filter: grayscale(1);
 }
 .card_calanques{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
@@ -867,12 +868,13 @@
     filter: grayscale(1);
 }
 .card_notre_dame{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
@@ -888,12 +890,13 @@
     filter: grayscale(1);
 }
 .card_longchamp{
-    width: 100%;
-    height: 450px;
+    width: 90%;
+    height: 500px;
     margin: auto;
     overflow: hidden;
     border-radius: 40px/40px;
-    box-shadow: 5px 10px 20px #F2F2F2;
+    box-shadow: 10px 15px 40px #F2F2F2;
+    margin-left: 50px;
     padding-bottom: 30px;
     margin-bottom: 50px;
 }
