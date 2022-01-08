@@ -312,7 +312,7 @@
         padding: 5px;
         height: 110px;
         width: 100%;
-        margin: auto;
+        margin:auto;
     }
     .card_les_populaires{
         background-color: white;
@@ -320,7 +320,7 @@
         border-radius: 10px/10px;
         width: 90%;
         margin-left: 20px ;
-        padding-right:20px;
+        padding-right:;
         margin-bottom: 20px;
     }
  
@@ -332,18 +332,21 @@
         color: cornflowerblue;
         filter: grayscale(1);
     }
-    .card_image_les_populaires {
+    .card_image_les_populaires{
         width: 160px;
         height: 110px;
     }
     .card_image_les_populaires img{
-        width: 100%;
+        width: 160px;
         height: 100%;
         border-radius: 10px 0px 0px 10px;
     }
     .card_body_les_populaires{
         padding-left: 20px;
+        margin-right: 20px;
         font-size: 12px;
+        box-sizing: border-box;
+        height: auto;
     }
     .touslesactivites{
         display: flex;
