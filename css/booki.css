@@ -278,7 +278,7 @@
    #card_les_populaires{
        background-color: #F2F2F2;
        border-radius: 10px/10px;
-       width:30%;
+       width:33%;
     }
     .icon_bleu_populaire{
         padding-top: 13px;
@@ -320,7 +320,6 @@
         border-radius: 10px/10px;
         width: 90%;
         margin-left: 20px ;
-        padding-right:;
         margin-bottom: 20px;
     }
  
@@ -342,11 +341,17 @@
         border-radius: 10px 0px 0px 10px;
     }
     .card_body_les_populaires{
-        padding-left: 20px;
-        margin-right: 20px;
-        font-size: 12px;
+        padding-left: 15px;
+        margin-right: 15px;
+        font-size: 11px;
         box-sizing: border-box;
-        height: auto;
+        height: 110px;
+    }
+    .card_body_les_populaires h3{
+        font-size: 11px;
+    }
+    .icon_euro{
+        font-size: 9px;
     }
     .touslesactivites{
         display: flex;

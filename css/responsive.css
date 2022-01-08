@@ -2,7 +2,7 @@
 {
     
     #blockpage{
-        width: auto;
+        width: 100%;
         margin: auto;
     }
     header{
@@ -145,9 +145,26 @@
     #card_les_populaires{
         background-color: #F2F2F2;
         border-radius: 10px/10px;
-        margin-right: 20px;
-        padding: 20px;
+        width:33%;
      }
+     .les_populaires{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 15px;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: auto;
+    }
+    .les_elements{
+        display: flex;
+        justify-content: flex-start;
+        align-items:center;
+        padding: 5px;
+        height: 110px;
+        width: 100%;
+        margin:auto;
+    }
     
     .touslescard_populaires{
         display: flex;
@@ -155,6 +172,22 @@
         height: 470px;
         width: auto;
         margin: auto;
+    }
+    .card_image_les_populaires{
+        width: 100px;
+        height: 110px;
+    }
+    .card_image_les_populaires img{
+        width: 100px;
+        height: 100%;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .card_body_les_populaires{
+        padding-left: 20px;
+        margin-right: 20px;
+        font-size: 10px;
+        box-sizing: border-box;
+        height: auto;
     }
 
     .touslesactivites{
@@ -615,10 +648,18 @@
         border-radius: 0px/0px;
         width: 100%;
         margin:auto;
+        background-color: #F2F2F2;
+    }
+    .card_body_les_populaires h3{
+        font-size: 45px;
+    }
+    .icon_euro{
+        font-size: 40px;
     }
     .card_les_populaires{
-       width:95%;
+       width:90%;
        margin:auto;
+       height: auto;
        background-color: white;
        box-shadow: 5px 5px 20px #999;
        border-radius: 40px/40px;
@@ -642,8 +683,11 @@
 }
 .card_body_les_populaires{
     padding-left: 40px;
+    margin-right: 20px;
     font-size: 40px;
     box-sizing: border-box;
+    height: 350px;
+    padding-bottom: 10px;
 }
    .les_populaires{
     display: flex;
