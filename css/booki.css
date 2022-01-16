@@ -2,19 +2,24 @@
     font-family: Raleway sans-serif;
     src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap);
 }
-    
-    body html {
-          box-sizing: border-box;
-          color: black;  
-          width: 100%;
-          margin: 0;        
- }
+    body html{
+        
+        color: black;  
+    }
+    #blockpage{
+        width: 100%;
+        margin: auto;  
+        box-sizing: border-box;
+        max-width:1460px;      
+    }
     header{
          display: flex;
          justify-content: space-between;
          align-items: flex-end;
          margin: auto;
+         width: auto;
          padding-left: 10px;
+         padding-right: 10px;
          
  }
     .logo img {
@@ -206,6 +211,7 @@
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
+        
     }
     
     .icon_bleu {
@@ -276,7 +282,9 @@
    #card_les_populaires{
        background-color: #F2F2F2;
        border-radius: 10px/10px;
-       width: 33%;
+       width: 30%;
+       margin: auto;
+       
     }
     .icon_bleu_populaire{
         padding-top: 13px;
@@ -488,12 +496,14 @@
        margin: auto;
        background-color: #F2F2F2;
        line-height: 5px;
+       max-width:1460px;
     }
     .piedpage{
         display: flex;
         justify-content:flex-start;
         align-items:baseline;
         margin: auto;
+       
     }
     .apropos{
         margin-right:200px;
